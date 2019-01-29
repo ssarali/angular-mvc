@@ -6,6 +6,7 @@ namespace WebApplication.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Your angular page.";
             return View();
         }
     }
