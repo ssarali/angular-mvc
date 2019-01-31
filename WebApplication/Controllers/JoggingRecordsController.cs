@@ -24,7 +24,8 @@ namespace WebApplication.Controllers
         [HttpGet]
         public IList<JoggingRecord> GetJoggingRecords() => JoggingRecords;
 
-        // GET: api/JoggingRecords/[id number]      
+        // GET: api/JoggingRecords/[id number]
+        [HttpGet]
         public JoggingRecord GetJoggingRecord(int id)
         {
             JoggingRecord joggingRecord = JoggingRecords.Where(r => r.Id == id).FirstOrDefault();
