@@ -1,1 +1,1 @@
-# angularMvc
+# angular-mvc
